@@ -49,24 +49,64 @@ public class Main {
     }
 }
 
+
+
 // Define the Person class here
+
+
 class Person {
+
+
     // Instance variables
+
+
     private String name;
+
+
     private String email;
+
+
     private String phoneNumber;
+
+
     private String age;
+
+
+
+
 
     // Task 1: Add a new attribute (e.g., age)
 
+
+
+
+
     // Constructor: Initialize Person data
-    public Person(String initName, String initEmail, String initPhone, String age) { // Task 2: modify method signature to include your new attribute.
+
+
+    public Person(String initName, String initEmail, String initPhone, String age) { // Task 2: modify method signature to 
+
+include your new attribute.
+
+
         name = initName;
+
+
         email = initEmail;
+
+
         phoneNumber = initPhone;
+
+
         this.age = age;
+
+
         // Task 3: Assign a default value to the new attribute here.
+
+
     }
+
+
 
     public void print() {
         System.out.println("Name: " + name);
