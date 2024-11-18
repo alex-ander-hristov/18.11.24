@@ -1,14 +1,44 @@
 Task 1:
+
 public class Main {
+
+
     public static void main(String[] args) {
+
+
+
         // Task 6: Create more objects and test the methods
+
+
+
         Person p1 = new Person("Eda", "eda@gmail.com", "123-456-7890", "20");
+
+
+
         p1.print();
+
+
+
         Person p2 = new Person("Hannah", "hannah@gmail.com", "404-899-9955", "20");
+
+
+
         p2.print();
+
+
+
         Person p3 = new Person("Alex", "alex@gmail.com", "303-877-9966", "20");
+
+
+
         p3.print();
+
+
+
         Person p4 = new Person("David", "david@gmail.com", "307-999-7766", "20");
+
+
+
         p4.print();
 
 
@@ -74,16 +104,47 @@ class Person {
 
 
 
+
 Task 2:
+
+
+
 public class Main {
+
+
+
     public static void main(String[] args) {
 
+
+
+
+
+
+
 Book b1 = new Book("To Himself","Marcus Aurelius Antoninus","140");
+
+
+
 b1.displayDetails();
+
+
+
 Book b2 = new Book("Catch-22","Joseph Heller","453");
+
+
+
 b2.displayDetails();
 
+
+
+
+
+
+
     }
+
+
+
 }
 
 class Book {
